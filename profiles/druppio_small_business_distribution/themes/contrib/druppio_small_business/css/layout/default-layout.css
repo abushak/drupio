@@ -1,0 +1,99 @@
+.container {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: -webkit-calc(100% - 100px);
+    max-width: -moz-calc(100% - 100px);
+    max-width: calc(100% - 100px);
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+.path-node .container, .path-user .container {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.path-node .container:after, .path-user .container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+@media (min-width: 1024px) {
+  .path-node .container, .path-user .container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: -webkit-calc(100% - 100px);
+    max-width: -moz-calc(100% - 100px);
+    max-width: calc(100% - 100px);
+    margin-left: auto;
+    margin-right: 0;
+    max-width: -webkit-calc(100% - 220px - 23px);
+    max-width: -moz-calc(100% - 220px - 23px);
+    max-width: calc(100% - 220px - 23px);
+  }
+  .path-node .container:after, .path-user .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Home */
+  #header .container {
+    max-width: -webkit-calc(100% - 100px);
+    max-width: -moz-calc(100% - 100px);
+    max-width: calc(100% - 100px);
+  }
+  /* #footer */
+  .region-footer-first {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 66.19718%;
+    float: left;
+    margin-right: 1.40845%;
+  }
+  .region-footer-second {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 32.39437%;
+    float: right;
+    margin-right: 0;
+  }
+  #footer .container {
+    max-width: -webkit-calc(100% - 100px);
+    max-width: -moz-calc(100% - 100px);
+    max-width: calc(100% - 100px);
+  }
+}
